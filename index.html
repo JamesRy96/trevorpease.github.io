@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trevor Pease</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #ff8c00, #e25822);
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(34, 34, 34, 0.85);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 100%;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 20px auto;
+      background-color: #fff;
+      background-size: cover;
+      background-position: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #fff;
+      background-color: #444;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .links a:hover {
+      background-color: #555;
+    }
+    .links img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .links a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-pic" style="background-image: url('https://media.licdn.com/dms/image/v2/D5603AQGunzMUoN8dTQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715023743489?e=1731542400&v=beta&t=WLS2NlEIh7K2WoNg0-gZEXW2N5b2KaIrvkrT-vpnkSI');"></div>
+    <h1>Trevor Pease</h1>
+    <p>Get in Touch</p>
+    <div class="links">
+      <a href="https://github.com/jamesry96" target="_blank">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/trevorpease" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">LinkedIn
+      </a>
+      <a href="mailto:hello@trevorpease.me">
+        <img src="https://cdn-icons-png.flaticon.com/128/542/542689.png" alt="Email Icon">Email
+      </a>
+    </div>
+  </div>
+</body>
+</html>
